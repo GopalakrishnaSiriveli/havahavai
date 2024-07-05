@@ -5,7 +5,7 @@ import Sidebar from "./SideBar";
 
 const Layout = ({ children }) => {
   return (
-    <Provider theme={defaultTheme} colorScheme="light">
+    <Provider theme={defaultTheme} colorScheme="dark">
       <View height="100vh">
         <Navbar />
         <Flex direction="row" height="100%">

@@ -5,7 +5,7 @@ import { IoIosMore } from "react-icons/io";
 const TerminalCard = ({ title, description,image }) => {
   return (
     <View
-      backgroundColor="gray-200"
+      backgroundColor="white"
       borderRadius="medium"
       maxWidth="size-3600"
       marginBottom="size-200"

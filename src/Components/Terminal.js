@@ -46,7 +46,7 @@ const Terminal = () => {
           );
         })}
         <DialogTrigger>
-          <Button variant="primary">+Add Terminal</Button>
+          <Button variant="primary">Add Terminal</Button>
           {(close) => (
             <Dialog UNSAFE_className="px-5 py-4 ">
               <Heading>
@@ -77,7 +77,7 @@ const Terminal = () => {
                     UNSAFE_className="upload-btn mr-10"
                     onSelect={(e) => setFile(e[0])}
                   >
-                    <Button variant="primary">Upload Image</Button>
+                    <Button variant="primary">Upload an Image</Button>
                     {file && file.name}
                   </FileTrigger>
                 </Flex>

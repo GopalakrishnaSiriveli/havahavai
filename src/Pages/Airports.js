@@ -82,7 +82,7 @@ const Airports = () => {
             style="fill"
             UNSAFE_className="cursor-pointer"
           >
-            +Add new{" "}
+            Add {" "}
           </Button>
           {(close) => (
             <Dialog UNSAFE_className="px-5 py-4 ">
@@ -141,10 +141,10 @@ const Airports = () => {
             onSelectionChange={handleSpecificAirport}
           >
             <TableHeader>
-              <Column>All Airports</Column>
+              <Column>Airports</Column>
               <Column>Country</Column>
-              <Column>Code</Column>
-              <Column>Terminals</Column>
+              <Column>Airport Code</Column>
+              <Column>Count</Column>
             </TableHeader>
             <TableBody items={data?.airports}>
               {airports.map((item) => {

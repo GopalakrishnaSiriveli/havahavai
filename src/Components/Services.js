@@ -30,7 +30,7 @@ const Services = () => {
       <Heading level={3}>Services</Heading>
       <View
         borderBottomWidth="thin"
-        borderColor="gray-400"
+        borderColor="white-400"
         paddingBottom="size-100"
         marginTop="size-200"
         marginBottom="size-200"
@@ -92,9 +92,9 @@ const Services = () => {
                     setServiceDetails({ ...servicedetails, file: e[0] })
                   }
                 >
-                  <Button variant="primary">Upload your files</Button>
+                  <Button variant="primary">Upload file</Button>
                 </FileTrigger>
-                <Switch>Show image</Switch>
+                <Switch>Show Image</Switch>
               </Flex>
               <Flex>
                 <TextField
@@ -138,7 +138,7 @@ const Services = () => {
         marginBottom="size-200"
       >
         <Flex direction="row" justifyContent="space-between">
-          <button level={3}>Money Exchange</button>
+          <button level={3}>Exchange </button>
           <MdDeleteOutline className="text-2xl cursor-pointer" />
         </Flex>
       </View>
